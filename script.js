@@ -19,7 +19,7 @@ function toggleMode() {
 function copiarEmail(event) {
   event.preventDefault() // Impede o link de abrir página ou recarregar
 
-  const email = "eloise.ra3e@gmail.com" // Coloque seu e-mail aqui
+  const email = "eloise.ra3e@gmail.com" // Meu e-mail aqui
   const link = event.currentTarget
   const textoOriginal = link.innerText
 
